@@ -176,7 +176,9 @@ img {
     ),
     url(../img/building.jpg) no-repeat center center / cover;
 }
-
+.hero-slides-container .owl-dots {
+  display: none;
+}
 /* slide btn /////////////////////////////////////////////*/
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
@@ -392,4 +394,10 @@ h5 {
 }
 .service-item a:hover {
   color: #e95a02 !important;
+}
+
+/* projects */
+
+#projects {
+  padding: 12rem;
 }
