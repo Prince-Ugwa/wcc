@@ -182,3 +182,19 @@
   height: 100%;
   width: 100%;
 }
+
+/* /////////////////////// */
+/* .owl-theme .owl-dots .owl-dot span,
+.owl-theme .owl-dots .owl-dot span {
+  background: -webkit-linear-gradient(#100d0c, #0a0806) !important;
+} */
+/* .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: -webkit-linear-gradient(#fe6e00, #eb9859) !important;
+} */
+
+/* .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: -webkit-linear-gradient(#fe6e00, #eb9859) !important;
+  color: #fff !important;
+  text-decoration: none !important;
+} */

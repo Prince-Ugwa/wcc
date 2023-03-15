@@ -180,8 +180,8 @@ img {
   display: none;
 }
 /* slide btn /////////////////////////////////////////////*/
-.owl-carousel .owl-nav button.owl-next,
-.owl-carousel .owl-nav button.owl-prev {
+#hero-slider.owl-carousel .owl-nav button.owl-next,
+#hero-slider.owl-carousel .owl-nav button.owl-prev {
   position: absolute;
   top: 50%;
 
@@ -190,7 +190,7 @@ img {
   width: 5.2rem;
   height: 5.2rem;
   place-items: center;
-  background-color: hsla(0, 0%, 100%, 0.4) !important;
+  background-color: hsla(0, 0%, 0%, 0.4) !important;
   font-size: 2rem;
   font-weight: 700 !important;
   border-radius: 50%;
@@ -202,8 +202,8 @@ img {
 .owl-carousel .owl-nav button.owl-prev {
   left: 50px;
 }
-.owl-carousel .owl-nav button.owl-next:hover,
-.owl-carousel .owl-nav button.owl-prev:hover {
+#hero-slider.owl-carousel .owl-nav button.owl-next:hover,
+#hero-slider.owl-carousel .owl-nav button.owl-prev:hover {
   background-color: #fd731d8e !important;
 }
 .hero2--content p {
@@ -399,5 +399,23 @@ h5 {
 /* projects */
 
 #projects {
-  padding: 12rem;
+  margin: 12rem 0;
+}
+
+#projects .owl-carousel .owl-nav {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+#projects .owl-carousel .owl-nav button.owl-next,
+#projects .owl-carousel .owl-nav button.owl-prev {
+  /* background-color: #e95a02 !important; */
+  width: 3rem;
+  height: 3rem;
+  color: #fff !important;
+  font-size: 3rem;
+  text-align: center !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
