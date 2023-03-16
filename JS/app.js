@@ -20,13 +20,17 @@ $(document).ready(function () {
 
   //project slider
   $("#project-slider").owlCarousel({
-    items: 2,
     loop: true,
     nav: true,
-    dots: true,
-    margin: 10,
+    margin: 24,
     smartSpeed: 1000,
     // autoplay: true,
-    autoplayTimeout: 5000,
+    responsiveness: {
+      0: {},
+      768: {},
+      1140: {
+        items: 2,
+      },
+    },
   });
 });
